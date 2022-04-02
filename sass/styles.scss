@@ -4,13 +4,13 @@
 p {
     font-size: 15px;
     line-height: 29px;
-    color: black;
+    color: #ffff;
     padding-bottom: 12px;
 }
 
 h1 {
     font-size: 60px;
-    color: #B38955;
+    color: #f1a7c1;
 }
 
 h2 {
@@ -20,7 +20,7 @@ h2 {
 }
 
 h3 {
-    color: #B38955;
+    color: #f1a7c1;
     font-size: 18px;
     font-weight: 700;
     text-transform: uppercase;
@@ -34,18 +34,18 @@ h4 {
 
 h5 {
     font-size: 18px;
-    color: #B38955;
+    color: #f1a7c1;
     font-weight: bold;
     text-transform: uppercase;
     font-weight: bold
 }
 
 h6 {
-    color: #B38955;
+    color: #f1a7c1;
     font-size: 30px;
     letter-spacing: 0px;
     line-height: 29px;
-    font-family: 'halimun', sans-serif;
+    font-family: 'aerotis', sans-serif;
     padding-top: 40px;
                                                 
 }
@@ -85,20 +85,20 @@ h6 {
 /*submit*/
 .btn-fill {
     color: #fff;
-    border: solid 2px #B38955;
+    border: solid 2px #f1a7c1;
     -moz-border-radius: 40px;
     -webkit-border-radius: 40px;
     border-radius: 40px;
     display: inline-block;
     text-transform: uppercase;
-    background-color: #B38955
+    background-color: #f1a7c1
 }
 
 .btn-fill:hover,
 .btn-fill:focus {
     color: black;
-    background-color: #cca371;
-    border-color: #cca371
+    background-color: #fd96ba;
+    border-color: #fd96ba
 }
 
 .btn-small {
@@ -129,7 +129,7 @@ h6 {
 }
 /*floating arrow bottom*/
 a {
-    color: #B38955;
+    color: #f1a7c1;
     -webkit-transition-timing-function: ease;
     transition-timing-function: ease;
     -webkit-transition-duration: 200ms;
@@ -147,9 +147,9 @@ a:focus {
 body {
     
     font-weight: 300;
-    color: black;
+    color: #ffff;
     -webkit-text-size-adjust: 100%;
-    background: #F6EBE6;
+    background: #0F2146
 
 }
 
@@ -449,7 +449,7 @@ section .header {
 .fixed {
     padding: 0px 0px;
     position: fixed;
-    background-color: #b18654f3;
+    background-color: #0f2146ee;
     z-index: 999;
     width: 100%
 }
@@ -479,7 +479,7 @@ header .logo {
 }
 
 header .logo img {
-    width: 300px;
+    width: 250px;
 }
 
 header ul.primary-nav {
@@ -1019,7 +1019,7 @@ header .member-actions {
 }
 /*RSVP Icons*/
 .rsvp .rsvp-form .form-input-group i {
-    color: #B38955;
+    color: #f1a7c1;
     font-size: 14px
 }
 
@@ -1123,7 +1123,7 @@ ol {
 
 
 strong {
-      Color: #B38955
+      Color: #f1a7c1
 }
 
 iframe {
@@ -1132,8 +1132,13 @@ iframe {
 
 #radio {
     text-align: left;
+    color: #ffff;
+}
+
+#input {
     color: black;
 }
+
 
 .form-check-label {
     font-weight: 300;
